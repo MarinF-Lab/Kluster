@@ -1,0 +1,161 @@
+:root{
+        --purple:#8B5CF6;
+            --violet:#6D28D9;
+                --blue:#3B82F6;
+                    --cyan:#38BDF8;
+                    }
+
+                    #cluster{
+                        position:relative;
+                            width:700px;
+                                height:700px;
+                                }
+
+                                .gem{
+
+                                    position:absolute;
+
+                                        width:135px;
+                                            height:135px;
+
+                                                display:flex;
+                                                    justify-content:center;
+                                                        align-items:center;
+
+                                                            flex-direction:column;
+
+                                                                cursor:pointer;
+
+                                                                    transition:.45s;
+
+                                                                        border-radius:26px;
+
+                                                                            background:
+                                                                                linear-gradient(
+                                                                                    145deg,
+                                                                                        rgba(255,255,255,.22),
+                                                                                            rgba(255,255,255,.04));
+
+                                                                                                border:1px solid rgba(255,255,255,.18);
+
+                                                                                                    backdrop-filter:blur(18px);
+
+                                                                                                        box-shadow:
+
+                                                                                                            0 0 35px rgba(139,92,246,.18),
+                                                                                                                inset 0 0 30px rgba(255,255,255,.05);
+
+                                                                                                                }
+
+                                                                                                                .gem::before{
+
+                                                                                                                content:"";
+
+                                                                                                                position:absolute;
+
+                                                                                                                inset:0;
+
+                                                                                                                background:linear-gradient(
+                                                                                                                135deg,
+                                                                                                                rgba(255,255,255,.35),
+                                                                                                                transparent 55%);
+
+                                                                                                                clip-path:polygon(
+                                                                                                                0 0,
+                                                                                                                100% 0,
+                                                                                                                70% 35%,
+                                                                                                                100% 100%,
+                                                                                                                0 100%,
+                                                                                                                30% 65%
+                                                                                                                );
+
+                                                                                                                opacity:.65;
+
+                                                                                                                }
+
+                                                                                                                .gem:hover{
+
+                                                                                                                transform:scale(1.12);
+
+                                                                                                                box-shadow:
+
+                                                                                                                0 0 60px rgba(139,92,246,.45);
+
+                                                                                                                }
+
+                                                                                                                .gem .icon{
+
+                                                                                                                font-size:38px;
+
+                                                                                                                margin-bottom:10px;
+
+                                                                                                                }
+
+                                                                                                                .gem span{
+
+                                                                                                                font-size:15px;
+
+                                                                                                                font-weight:600;
+
+                                                                                                                }
+                                                                                                                .g-center{
+
+                                                                                                                left:285px;
+                                                                                                                top:285px;
+
+                                                                                                                width:150px;
+                                                                                                                height:150px;
+
+                                                                                                                z-index:20;
+
+                                                                                                                }
+
+                                                                                                                .g1{
+
+                                                                                                                left:280px;
+                                                                                                                top:70px;
+
+                                                                                                                }
+
+                                                                                                                .g2{
+
+                                                                                                                left:490px;
+                                                                                                                top:160px;
+
+                                                                                                                }
+
+                                                                                                                .g3{
+
+                                                                                                                left:520px;
+                                                                                                                top:390px;
+
+                                                                                                                }
+
+                                                                                                                .g4{
+
+                                                                                                                left:280px;
+                                                                                                                top:500px;
+
+                                                                                                                }
+
+                                                                                                                .g5{
+
+                                                                                                                left:60px;
+                                                                                                                top:390px;
+
+                                                                                                                }
+
+                                                                                                                .g6{
+
+                                                                                                                left:35px;
+                                                                                                                top:170px;
+
+                                                                                                                }
+
+                                                                                                                .g7{
+
+                                                                                                                left:155px;
+                                                                                                                top:90px;
+
+                                                                                                            
+}
